@@ -1,0 +1,8 @@
+<h1>Create an ingredient</h1>
+<%= form_for @ingredient do | f | %>
+ <%= f.label :name %>
+ <%= f.text_field :name %>
+<%= f.submit "Create Ingredient" %>
+
+
+<% end %>
